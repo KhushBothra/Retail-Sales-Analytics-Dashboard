@@ -1,0 +1,12 @@
+# Keep project documents and the UI layout prototype out of the repository.
+/Documentation/
+/Mock UI/
+
+# Keep only the four CSVs currently used by data preparation and ingestion.
+/Data/*
+!/Data/v1_2025-11-01/
+/Data/v1_2025-11-01/*
+!/Data/v1_2025-11-01/stores.csv
+!/Data/v1_2025-11-01/products.csv
+!/Data/v1_2025-11-01/transactions.csv
+!/Data/v1_2025-11-01/transaction_line_items.csv
