@@ -10,3 +10,10 @@
 !/Data/v1_2025-11-01/products.csv
 !/Data/v1_2025-11-01/transactions.csv
 !/Data/v1_2025-11-01/transaction_line_items.csv
+
+# Local secrets and Python/Streamlit runtime files.
+.env
+.streamlit/secrets.toml
+__pycache__/
+*.py[cod]
+.streamlit/config.toml
